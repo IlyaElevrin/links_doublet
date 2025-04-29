@@ -15,5 +15,10 @@ To clarify: the numbers mean the stage ID, i.e. dataframe ID +1. For example, th
 As I said above, the table should be sorted (you can sort by deeplinks library) in the format - first closed links, then links between closed links (they are defined as if they contain numbers that are in closed links), if there are no numbers that would be in closed links (in the example above it is 5:6), then it is a link between ID operations. 
 The first thing we do is to draw closed links starting from the right, then from the left. Then we draw links between closed links and links between operations.
 
-example - https://konard.github.io/links-visuals/H-fractal.html
+example - https://konard.github.io/links-visuals/H-fractal.html <br>
 example - https://github.com/Konard/LinksPlatform/wiki/How-it-all-began
+
+
+# Using the algorithm
+
+You can use the algorithm using the deepvisual library (github.com/deep-foundation/deep-visual), also in ipynb of this repository is written an execution example with all visualization parameters
